@@ -1,0 +1,22 @@
+/* App.css */
+.app-container {
+    display: flex; /* Mostrar las secciones en línea */
+    align-items: stretch; /* Estirar las secciones para igualar la altura */
+    height: 100vh;
+    padding: 40px; /* Espaciado alrededor de las secciones */
+  }
+  
+  .section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para las líneas divisorias */
+  .divider {
+    width: 1px;
+    background-color: #ccc;
+    margin: 0 10px; /* Espacio entre las líneas y las secciones */
+  }
+    

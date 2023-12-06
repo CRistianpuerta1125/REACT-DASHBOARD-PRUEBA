@@ -1,0 +1,24 @@
+/* SectionOne.css */
+.section-one {
+    display: flex;
+    height: 100%; /* Ajusta la altura */
+    border-radius: 10px; /* Agrega bordes redondeados */
+  }
+  
+  .side-menu {
+    width: 200px; /* Ancho del menú lateral */
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px; /* Agrega bordes redondeados */
+  }
+  
+  .menu-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .menu-item:hover {
+    color: #ff9900;
+  }
+  

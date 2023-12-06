@@ -1,0 +1,24 @@
+/* SearchBar.css */
+.search-bar {
+    text-align: center; /* Centra el contenido horizontalmente */
+    background-color: #2C2F48;
+    padding: 20px 0; /* Añade espacio arriba y abajo */
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  

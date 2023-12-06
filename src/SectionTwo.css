@@ -1,0 +1,98 @@
+/* SectionOne.css */
+/* SectionTwo.css */
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente el contenido */
+    height: 100%;
+    background-color: #2C2F48;
+    border-radius: 10px;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-right: 10px; /* Agrega margen a la derecha */
+  }
+  .content-image{}
+  .image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-right: 10px; /* Agrega margen a la derecha */
+  }
+ 
+  .content-image:hover {
+    transform: scale(1.05);
+  }
+  
+.section-one {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .side-menu {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .menu-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .menu-item:hover {
+    color: #ff9900;
+  }
+  
+  /* Reproductor de Música Ficticio */
+  .music-player {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    margin-top: 250px;
+  }
+  
+  .player-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .player-info {
+    flex: 1;
+  }
+  
+  .player-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .player-controls button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .player-controls button:hover {
+    background-color: #0056b3;
+  }
+  
